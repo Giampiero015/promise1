@@ -13,8 +13,8 @@ function fetchDataFromAPI(data) {
             }else{
                 reject('ko');
             }
-        },1000);
-    });
+        });
+    },1000);
    
   }
 fetchDataFromAPI(ogg)   .then((data)=>{console.log(data)})
